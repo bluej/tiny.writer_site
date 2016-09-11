@@ -10,6 +10,9 @@ body {
 .text-muted {
   color: #777777;
 }
+.text-services {
+  color: #ffffff;
+}
 .text-primary {
   color: #fed136;
 }
@@ -226,7 +229,7 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  background-image: url('../img/header-bg.jpg');
+  background-image: url('../img/shineon.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -258,7 +261,6 @@ header .intro-text .intro-heading {
 }
 @media (min-width: 768px) {
   header .intro-text {
-    padding-top: 300px;
     padding-bottom: 200px;
   }
   header .intro-text .intro-lead-in {
@@ -295,7 +297,7 @@ section h3.section-subheading {
 }
 @media (min-width: 768px) {
   section {
-    padding: 150px 0;
+    /*padding: 150px 0;*/
   }
 }
 .service-heading {
@@ -553,12 +555,26 @@ section h3.section-subheading {
 aside.clients img {
   margin: 50px auto;
 }
+
+section#services {
+  background-image: url('../img/yoga_accomplishments.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  color: white;
+}
+
 section#contact {
   background-color: #222222;
-  background-image: url('../img/map-image.png');
+  background-image: url('../img/hands.jpg');
   background-position: center;
   background-repeat: no-repeat;
-}
+} 
 section#contact .section-heading {
   color: white;
 }

@@ -770,7 +770,11 @@ body {
     margin: 0;
     text-align: center;
     /*border-collapse: collapse;*/
-    outline: 1px solid white;
+    border: 2px solid white;
     padding: 5px, 10px;
     /*background-color: white;*/
+}
+th {
+  background-color: white;
+  border: 2px solid #eeeeee;
 }

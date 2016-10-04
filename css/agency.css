@@ -760,3 +760,17 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #fed136;
 }
+
+/*Table schedule CSS*/
+.table>tbody>tr>th {
+  border-top:0px;
+}
+ th,td
+{
+    margin: 0;
+    text-align: center;
+    /*border-collapse: collapse;*/
+    outline: 1px solid white;
+    padding: 5px, 10px;
+    /*background-color: white;*/
+}

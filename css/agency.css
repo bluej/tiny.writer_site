@@ -287,6 +287,9 @@ section h2.section-heading {
   margin-top: 0;
   margin-bottom: 15px;
 }
+#services h2.section-heading  {
+  font-size: 32px;
+}
 section h3.section-subheading {
   font-size: 16px;
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;

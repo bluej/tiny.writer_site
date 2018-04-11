@@ -229,7 +229,7 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  background-image: url('../img/new images/quiet.jpeg');
+  background-image: url('../img/new images/quiet_opacity.jpeg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -296,7 +296,7 @@ section h3.section-subheading {
   text-transform: none;
   font-style: italic;
   font-weight: 400;
-  margin-bottom: 75px;
+  margin-bottom: 60px;
 }
 #services h3.section-subheading {
   margin-bottom: 50px;
@@ -768,7 +768,7 @@ body {
 }
 
 /*Table schedule CSS*/
-table {
+.calendar {
   margin-left: auto;
   margin-right: auto;  
 }
@@ -777,18 +777,18 @@ table {
   background-color: rgba(234,234,234,0.2);
 }
 
-th {
+.calendar th {
   text-align: center;
   padding-bottom: 15px;
 }
 
-tr {
+.calendar tr {
   border-bottom: 1px solid white;
   border-top: 1px solid white;
   border-collapse: collapse;
 }
 
-td {
+.calendar td {
   width: 200px;
   height: 100px;
   text-align: left;
@@ -796,12 +796,12 @@ td {
   padding-top: 5pxf;
 }
 
-td div {
+.calendar td div {
   line-height: 13px;
   font-size: 18px;
 }
 
-td small {
+.calendar td small {
   font-size:12px;
   color:#a6a6a6;
 }
@@ -812,6 +812,32 @@ td small {
 #last-row {
   border-bottom: 0;
 }
+
+.offerings-table {
+  width:100%;
+}
+
+.offerings-table th {
+  font-size: 22px;
+  text-align: left;
+}
+
+.offerings-table tr {
+
+}
+
+.offerings-table td {
+  text-align: left;
+  line-height:25px;
+  width: 150px;
+}
+
+#subheading-cell {
+  font-size: 12px;
+  line-height:25px;
+  text-align: left;
+}
+
 /*.table>tbody>tr>th {
   border-top:0px;
 }

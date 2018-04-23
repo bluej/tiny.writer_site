@@ -476,7 +476,7 @@ section h3.section-subheading {
     left: 50%;
   }
   .timeline > li {
-    margin-bottom: 100px;
+    /*margin-bottom: 100px;*/
     min-height: 100px;
   }
   .timeline > li .timeline-panel {
@@ -563,7 +563,7 @@ aside.clients img {
 }
 
 section#services {
-  background-image: url('../img/new images/fixation.jpeg');
+  background-image: url('../img/new images/fixation copy.jpeg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -577,9 +577,10 @@ section#services {
 
 section#contact {
   background-color: #222222;
-  background-image: url('../img/hands.jpg');
+  background-image: url('../img/new images/plainlove copy.jpeg');
   background-position: center;
   background-repeat: no-repeat;
+  background-size: 100%;
 } 
 section#contact .section-heading {
   color: white;
@@ -774,7 +775,7 @@ body {
 }
 .table-div {
   padding: 10px 10px 0px 10px;
-  background-color: rgba(234,234,234,0.2);
+  background-color: rgba(234,234,234,0.4);
 }
 
 .calendar th {
@@ -793,7 +794,7 @@ body {
   height: 100px;
   text-align: left;
   vertical-align: text-top;
-  padding-top: 5pxf;
+  padding: 5px;
 }
 
 .calendar td div {
@@ -813,13 +814,20 @@ body {
   border-bottom: 0;
 }
 
+#calendar-events {
+  font-size: 11px;
+  font-weight: bold;
+  color: #003366;
+}
+
 .offerings-table {
   width:100%;
 }
 
 .offerings-table th {
-  font-size: 22px;
+  /*font-size: 22px;*/
   text-align: left;
+  padding-left: 15px;
 }
 
 .offerings-table tr {
@@ -830,12 +838,27 @@ body {
   text-align: left;
   line-height:25px;
   width: 150px;
+  text-align: left;
+  vertical-align: top;
 }
 
 #subheading-cell {
-  font-size: 12px;
+  /*font-size: 12px;*/
   line-height:25px;
   text-align: left;
+  padding-left:15px;
+}
+
+#title {
+  font-weight: bold;
+  height: 25px;
+  padding-left: 15px;
+}
+
+#description {
+  /*font-size: 12px;*/
+  height: 150px;
+  padding: 15px;
 }
 
 /*.table>tbody>tr>th {

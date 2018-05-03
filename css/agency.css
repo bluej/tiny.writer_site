@@ -826,7 +826,7 @@ body {
 
 .offerings-table th {
   /*font-size: 22px;*/
-  text-align: left;
+  text-align: center;
   padding-left: 15px;
 }
 
@@ -845,7 +845,7 @@ body {
 #subheading-cell {
   /*font-size: 12px;*/
   line-height:25px;
-  text-align: left;
+  text-align: center;
   padding-left:15px;
 }
 

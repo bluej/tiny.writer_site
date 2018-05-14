@@ -775,9 +775,9 @@ body {
   width: 100%;  
 }
 /* if the browser window is at least 1000px-s wide: */
-@media screen and (min-width: 1000px) {
-  table {
-  width: 100%;}
+@media screen and (min-width: 2000px) {
+  .calendar {
+  width: 50%;}
 }
 
 .table-div {
@@ -831,9 +831,9 @@ body {
   width:100%;
 }
 
-/* if the browser window is at least 1000px-s wide: */
-@media screen and (min-width: 800px) {
-  table {
+/* if the browser window is at least 800px-s wide: */
+@media screen and (min-width: 1500px) {
+  .offerings-table {
   width: 50%;}
 }
 

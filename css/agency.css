@@ -289,6 +289,7 @@ section h2.section-heading {
 }
 #services h2.section-heading  {
   font-size: 3em;
+  margin-top: 25px;
 }
 section h3.section-subheading {
   font-size: 16px;
@@ -299,13 +300,14 @@ section h3.section-subheading {
   margin-bottom: 60px;
 }
 #services h3.section-subheading {
-  margin-bottom: 50px;
+  margin-bottom: 35px;
 }
 @media (min-width: 768px) {
   section {
     /*padding: 150px 0;*/
   }
 }
+
 .service-heading {
   margin: 15px 0;
   text-transform: none;
@@ -373,6 +375,12 @@ section h3.section-subheading {
 @media (min-width: 767px) {
   #portfolio .portfolio-item {
     margin: 0 0 30px;
+  }
+}
+
+@media (max-width: 1024px) {
+  #portfolio h3.subheading {
+    font-size:14px;
   }
 }
 .timeline {
@@ -773,11 +781,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 100%;  
-}
-/* if the browser window is at least 1000px-s wide: */
-@media screen and (min-width: 2000px) {
-  .calendar {
-  width: 50%;}
+  table-layout:fixed;
 }
 
 .table-div {
@@ -817,6 +821,11 @@ body {
 #top-row {
   border-top: 0;
 }
+@media(max-height:1024px) {
+  #top-row {
+    font-size:14px;
+  }
+}
 #last-row {
   border-bottom: 0;
 }
@@ -826,21 +835,21 @@ body {
   font-weight: bold;
   color: #003366;
 }
+@media(max-height:1024px) {
+  #calendar-events {
+    font-size:10px;
+  }
+}
 
 .offerings-table {
   width:100%;
-}
-
-/* if the browser window is at least 800px-s wide: */
-@media screen and (min-width: 1500px) {
-  .offerings-table {
-  width: 50%;}
+  table-layout: fixed;
 }
 
 .offerings-table th {
   /*font-size: 22px;*/
   text-align: center;
-  padding-left: 15px;
+  /*padding-left: 15px;*/
 }
 
 .offerings-table tr {
@@ -859,13 +868,24 @@ body {
   /*font-size: 12px;*/
   line-height:25px;
   text-align: center;
-  padding-left:15px;
+  padding:5px;
+}
+
+@media(max-height:1024px) {
+  #subheading-cell {
+    font-size:12px;
+  }
 }
 
 #title {
   font-weight: bold;
   height: 25px;
   padding-left: 15px;
+}
+@media(max-height:1024px) {
+  #title {
+    font-size: 12px;
+  }
 }
 
 #description {
@@ -874,18 +894,9 @@ body {
   padding: 15px;
 }
 
-/*.table>tbody>tr>th {
-  border-top:0px;
+@media(max-height:1024px) {
+  #description {
+    font-size:10px;
+  }
 }
- th,td
-{
-    margin: 0;
-    text-align: center;
-    border-collapse: collapse;
-    border: 2px solid white;
-    padding: 5px, 10px;
-}
-th {
-  background-color: white;
-  border: 2px solid #eeeeee;
-}*/
+
